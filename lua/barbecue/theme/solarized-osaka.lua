@@ -1,4 +1,4 @@
-local c = require("solarized-osaka.colors").setup({ transform = true })
+local c = require("solarized-matrix.colors").setup({ transform = true })
 
 local M = {
   normal = { bg = c.none, fg = c.fg_dark },

@@ -1,5 +1,5 @@
-local util = require("solarized-osaka.util")
-local hslutil = require("solarized-osaka.hsl")
+local util = require("solarized-matrix.util")
+local hslutil = require("solarized-matrix.hsl")
 local hsl = hslutil.hslToHex
 
 local M = {}
@@ -77,7 +77,7 @@ M.default = {
 ---@return ColorScheme
 function M.setup(opts)
   opts = opts or {}
-  local config = require("solarized-osaka.config")
+  local config = require("solarized-matrix.config")
 
   -- local style = config.is_day() and config.options.light_style or config.options.style
   local style = "default"

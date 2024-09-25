@@ -1,4 +1,4 @@
-local colors = require("solarized-osaka.colors").setup({ transform = true })
+local colors = require("solarized-matrix.colors").setup({ transform = true })
 
 local solarized_osaka = {}
 

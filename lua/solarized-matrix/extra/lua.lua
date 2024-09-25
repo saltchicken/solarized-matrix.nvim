@@ -20,7 +20,7 @@ function M.generate(colors)
   local ret = "local colors = "
     .. vim.inspect(colors)
     .. "\n\nlocal highlights = "
-    .. vim.inspect(deepcopy(require("solarized-osaka.theme").setup().highlights))
+    .. vim.inspect(deepcopy(require("solarized-matrix.theme").setup().highlights))
     .. "\n"
   return ret
 end

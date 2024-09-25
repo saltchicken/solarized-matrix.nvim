@@ -1,5 +1,5 @@
-local colors = require("solarized-osaka.colors").setup({ transform = true })
-local config = require("solarized-osaka.config").options
+local colors = require("solarized-matrix.colors").setup({ transform = true })
+local config = require("solarized-matrix.config").options
 
 local solarized_osaka = {}
 

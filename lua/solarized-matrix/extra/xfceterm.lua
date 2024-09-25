@@ -1,4 +1,4 @@
-local util = require("solarized-osaka.util")
+local util = require("solarized-matrix.util")
 
 local M = {}
 

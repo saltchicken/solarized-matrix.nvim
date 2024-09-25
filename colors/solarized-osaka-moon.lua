@@ -1,1 +1,1 @@
-require("solarized-osaka")._load("moon")
+require("solarized-matrix")._load("moon")

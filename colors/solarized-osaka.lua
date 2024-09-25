@@ -1,1 +1,1 @@
-require("solarized-osaka")._load()
+require("solarized-matrix")._load()

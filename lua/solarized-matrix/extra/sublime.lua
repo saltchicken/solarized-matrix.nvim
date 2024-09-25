@@ -1,4 +1,4 @@
-local util = require("solarized-osaka.util")
+local util = require("solarized-matrix.util")
 
 local M = {}
 
@@ -9,9 +9,9 @@ function M.generate(colors)
 end
 
 -- vim.schedule(function()
---   local config = require("solarized-osaka.config")
+--   local config = require("solarized-matrix.config")
 --   config.setup({ style = "storm" })
---   local colors = require("solarized-osaka.colors").setup()
+--   local colors = require("solarized-matrix.colors").setup()
 --
 --   local lookup = {}
 --

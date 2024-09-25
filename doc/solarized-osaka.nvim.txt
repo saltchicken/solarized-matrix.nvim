@@ -1,55 +1,55 @@
-*solarized-osaka.nvim.txt*      For Neovim >= 0.8.0     Last change: 2023 August 29
+*solarized-matrix.nvim.txt*      For Neovim >= 0.8.0     Last change: 2023 August 29
 
 ==============================================================================
-Table of Contents                          *solarized-osaka.nvim-table-of-contents*
+Table of Contents                          *solarized-matrix.nvim-table-of-contents*
 
-1. Solarized Osaka                               |solarized-osaka.nvim-tokyo-night|
-  - Storm                                  |solarized-osaka.nvim-tokyo-night-storm|
-  - Night                                  |solarized-osaka.nvim-tokyo-night-night|
-  - Moon                                    |solarized-osaka.nvim-tokyo-night-moon|
-  - Day                                      |solarized-osaka.nvim-tokyo-night-day|
-  - Features                            |solarized-osaka.nvim-tokyo-night-features|
-  - Requirements                    |solarized-osaka.nvim-tokyo-night-requirements|
-  - Installation                    |solarized-osaka.nvim-tokyo-night-installation|
-  - Usage                                  |solarized-osaka.nvim-tokyo-night-usage|
-  - Configuration                  |solarized-osaka.nvim-tokyo-night-configuration|
-  - Overriding Colors & Highlight Groups|solarized-osaka.nvim-tokyo-night-overriding-colors-&-highlight-groups|
-  - Extras                                |solarized-osaka.nvim-tokyo-night-extras|
-  - Contributing                    |solarized-osaka.nvim-tokyo-night-contributing|
+1. Solarized Osaka                               |solarized-matrix.nvim-tokyo-night|
+  - Storm                                  |solarized-matrix.nvim-tokyo-night-storm|
+  - Night                                  |solarized-matrix.nvim-tokyo-night-night|
+  - Moon                                    |solarized-matrix.nvim-tokyo-night-moon|
+  - Day                                      |solarized-matrix.nvim-tokyo-night-day|
+  - Features                            |solarized-matrix.nvim-tokyo-night-features|
+  - Requirements                    |solarized-matrix.nvim-tokyo-night-requirements|
+  - Installation                    |solarized-matrix.nvim-tokyo-night-installation|
+  - Usage                                  |solarized-matrix.nvim-tokyo-night-usage|
+  - Configuration                  |solarized-matrix.nvim-tokyo-night-configuration|
+  - Overriding Colors & Highlight Groups|solarized-matrix.nvim-tokyo-night-overriding-colors-&-highlight-groups|
+  - Extras                                |solarized-matrix.nvim-tokyo-night-extras|
+  - Contributing                    |solarized-matrix.nvim-tokyo-night-contributing|
 
 ==============================================================================
-1. Solarized Osaka                               *solarized-osaka.nvim-tokyo-night*
+1. Solarized Osaka                               *solarized-matrix.nvim-tokyo-night*
 
 A dark and light Neovim <https://github.com/neovim/neovim> theme written in Lua
 <https://www.lua.org> ported from the Visual Studio Code TokyoNight
 <https://github.com/enkia/tokyo-night-vscode-theme> theme. Includes
-|solarized-osaka.nvim-extra| themes for Kitty
+|solarized-matrix.nvim-extra| themes for Kitty
 <https://sw.kovidgoyal.net/kitty/conf.html>, Alacritty
 <https://github.com/alacritty/alacritty>, iTerm <https://iterm2.com/> and Fish
 <https://fishshell.com/docs/current/index.html>.
 
 
-STORM                                      *solarized-osaka.nvim-tokyo-night-storm*
+STORM                                      *solarized-matrix.nvim-tokyo-night-storm*
 
 
-NIGHT                                      *solarized-osaka.nvim-tokyo-night-night*
+NIGHT                                      *solarized-matrix.nvim-tokyo-night-night*
 
 
-MOON                                        *solarized-osaka.nvim-tokyo-night-moon*
+MOON                                        *solarized-matrix.nvim-tokyo-night-moon*
 
 
-DAY                                          *solarized-osaka.nvim-tokyo-night-day*
+DAY                                          *solarized-matrix.nvim-tokyo-night-day*
 
 
-FEATURES                                *solarized-osaka.nvim-tokyo-night-features*
+FEATURES                                *solarized-matrix.nvim-tokyo-night-features*
 
 - Supports the latest Neovim <https://github.com/neovim/neovim>
     0.9.0 <https://github.com/neovim/neovim/releases/tag/v0.9.0> features.
 - Enhances terminal colors.
 - Introduces a darker background option for sidebar-like windows.
 - Supports all major plugins.
-- Provides TokyoNight <https://github.com/craftzdog/solarized-osaka.nvim>
-    |solarized-osaka.nvim-extras| for numerous other applications.
+- Provides TokyoNight <https://github.com/craftzdog/solarized-matrix.nvim>
+    |solarized-matrix.nvim-extras| for numerous other applications.
 
 
 EXTRAS ~
@@ -76,20 +76,20 @@ EXTRAS ~
 - Zathura <https://pwmt.org/projects/zathura/> (zathura <extras/zathura>)
 
 
-REQUIREMENTS                        *solarized-osaka.nvim-tokyo-night-requirements*
+REQUIREMENTS                        *solarized-matrix.nvim-tokyo-night-requirements*
 
 - Neovim <https://github.com/neovim/neovim> >=
     0.7.2 <https://github.com/neovim/neovim/releases/tag/v0.7.2>
 
 
-INSTALLATION                        *solarized-osaka.nvim-tokyo-night-installation*
+INSTALLATION                        *solarized-matrix.nvim-tokyo-night-installation*
 
 Install the theme with your preferred package manager, such as folke/lazy.nvim
 <https://github.com/folke/lazy.nvim>
 
 >lua
     {
-      "craftzdog/solarized-osaka.nvim",
+      "craftzdog/solarized-matrix.nvim",
       lazy = false,
       priority = 1000,
       opts = {},
@@ -97,26 +97,26 @@ Install the theme with your preferred package manager, such as folke/lazy.nvim
 <
 
 
-USAGE                                      *solarized-osaka.nvim-tokyo-night-usage*
+USAGE                                      *solarized-matrix.nvim-tokyo-night-usage*
 
 
 VIM SCRIPT ~
 
 >vim
-    colorscheme solarized-osaka
+    colorscheme solarized-matrix
     
     " There are also colorschemes for the different styles.
-    colorscheme solarized-osaka-night
-    colorscheme solarized-osaka-storm
-    colorscheme solarized-osaka-day
-    colorscheme solarized-osaka-moon
+    colorscheme solarized-matrix-night
+    colorscheme solarized-matrix-storm
+    colorscheme solarized-matrix-day
+    colorscheme solarized-matrix-moon
 <
 
 
 LUA ~
 
 >lua
-    vim.cmd[[colorscheme solarized-osaka]]
+    vim.cmd[[colorscheme solarized-matrix]]
 <
 
 
@@ -129,7 +129,7 @@ BARBECUE
     -- Lua
     require('barbecue').setup {
       -- ... your barbecue config
-      theme = 'solarized-osaka',
+      theme = 'solarized-matrix',
       -- ... your barbecue config
     }
 <
@@ -142,7 +142,7 @@ LUALINE
     require('lualine').setup {
       options = {
         -- ... your lualine config
-        theme = 'solarized-osaka'
+        theme = 'solarized-matrix'
         -- ... your lualine config
       }
     }
@@ -153,26 +153,26 @@ LIGHTLINE
 
 >vim
     " Vim Script
-    let g:lightline = {'colorscheme': 'solarized-osaka'}
+    let g:lightline = {'colorscheme': 'solarized-matrix'}
 <
 
 
-CONFIGURATION                      *solarized-osaka.nvim-tokyo-night-configuration*
+CONFIGURATION                      *solarized-matrix.nvim-tokyo-night-configuration*
 
 
   Set the configuration **BEFORE** loading the color scheme with `colorscheme
-  solarized-osaka`.
-The theme offers four styles: |solarized-osaka.nvim-storm|, |solarized-osaka.nvim-moon|,
-|solarized-osaka.nvim-night|, and |solarized-osaka.nvim-day|.
+  solarized-matrix`.
+The theme offers four styles: |solarized-matrix.nvim-storm|, |solarized-matrix.nvim-moon|,
+|solarized-matrix.nvim-night|, and |solarized-matrix.nvim-day|.
 
-The |solarized-osaka.nvim-day| style is used when `{ style = "day" }` is passed to
+The |solarized-matrix.nvim-day| style is used when `{ style = "day" }` is passed to
 `setup(options)` or when `vim.o.background = "light"`.
 
-TokyoNight <https://github.com/craftzdog/solarized-osaka.nvim> uses the default options,
+TokyoNight <https://github.com/craftzdog/solarized-matrix.nvim> uses the default options,
 unless `setup` is explicitly called.
 
 >lua
-    require("solarized-osaka").setup({
+    require("solarized-matrix").setup({
       -- your configuration comes here
       -- or leave it empty to use the default settings
       style = "storm", -- The theme comes in three styles, `storm`, `moon`, a darker variant `night` and `day`
@@ -210,7 +210,7 @@ unless `setup` is explicitly called.
 <
 
 
-OVERRIDING COLORS & HIGHLIGHT GROUPS*solarized-osaka.nvim-tokyo-night-overriding-colors-&-highlight-groups*
+OVERRIDING COLORS & HIGHLIGHT GROUPS*solarized-matrix.nvim-tokyo-night-overriding-colors-&-highlight-groups*
 
 How the highlight groups are calculated:
 
@@ -221,15 +221,15 @@ override them using `config.on_colors(colors)`.
 groups.
 
 For default values of `colors` and `highlights`, please consult the storm
-<extras/lua/solarized-osaka_storm.lua>, moon <extras/lua/solarized-osaka_moon.lua>, night
-<extras/lua/solarized-osaka_night.lua>, and day <extras/lua/solarized-osaka_day.lua>
+<extras/lua/solarized-matrix_storm.lua>, moon <extras/lua/solarized-matrix_moon.lua>, night
+<extras/lua/solarized-matrix_night.lua>, and day <extras/lua/solarized-matrix_day.lua>
 themes.
 
 
 SETTINGS AND COLOR ALTERATION DEMONSTRATION ~
 
 >lua
-    require("solarized-osaka").setup({
+    require("solarized-matrix").setup({
       -- use the night style
       style = "night",
       -- disable italic for functions
@@ -249,7 +249,7 @@ SETTINGS AND COLOR ALTERATION DEMONSTRATION ~
 BORDERLESS TELESCOPE EXAMPLE ~
 
 >lua
-    require("solarized-osaka").setup({
+    require("solarized-matrix").setup({
       on_highlights = function(hl, c)
         local prompt = "2d3149"
         hl.TelescopeNormal = {
@@ -297,7 +297,7 @@ To have undercurls show up and in color, add the following to your Tmux
 <
 
 
-EXTRAS                                    *solarized-osaka.nvim-tokyo-night-extras*
+EXTRAS                                    *solarized-matrix.nvim-tokyo-night-extras*
 
 Extra color configs for Kitty <https://sw.kovidgoyal.net/kitty/conf.html>,
 Alacritty <https://github.com/alacritty/alacritty>, Fish
@@ -310,34 +310,34 @@ You can easily use the color palette for other plugins inside your Neovim
 <https://github.com/neovim/neovim> configuration:
 
 >lua
-    local colors = require("solarized-osaka.colors").setup() -- pass in any of the config options as explained above
-    local util = require("solarized-osaka.util")
+    local colors = require("solarized-matrix.colors").setup() -- pass in any of the config options as explained above
+    local util = require("solarized-matrix.util")
     
     aplugin.background = colors.bg_dark
     aplugin.my_error = util.lighten(colors.red1, 0.3) -- number between 0 and 1. 0 results in white, 1 results in red1
 <
 
 
-CONTRIBUTING                        *solarized-osaka.nvim-tokyo-night-contributing*
+CONTRIBUTING                        *solarized-matrix.nvim-tokyo-night-contributing*
 
 Pull requests are welcome.
 
-For the |solarized-osaka.nvim-extras|, we use a simple template system that can be
+For the |solarized-matrix.nvim-extras|, we use a simple template system that can be
 used to generate themes for the different styles.
 
 How to add a new extra template:
 
-1. Create a file like `lua/solarized-osaka/extra/cool-app.lua`.
+1. Create a file like `lua/solarized-matrix/extra/cool-app.lua`.
 
 
 2. Add the name and output file extension to the `extras` table in
-`lua/solarized-osaka/extra/init.lua`.
+`lua/solarized-matrix/extra/init.lua`.
 
 
-3. Run the following command to generate new |solarized-osaka.nvim-extra| themes:
+3. Run the following command to generate new |solarized-matrix.nvim-extra| themes:
 
 >sh
-    nvim --headless "+lua require('solarized-osaka.extra').setup()" +qa
+    nvim --headless "+lua require('solarized-matrix.extra').setup()" +qa
 <
 
 
@@ -347,7 +347,7 @@ commit them, as they are already automatically built by the CI.
 
 
 ==============================================================================
-2. Links                                               *solarized-osaka.nvim-links*
+2. Links                                               *solarized-matrix.nvim-links*
 
 1. *image*: https://user-images.githubusercontent.com/292349/115295095-3a9e5080-a10e-11eb-9aed-6054488c46ce.png
 2. *image*: https://user-images.githubusercontent.com/292349/115295327-7afdce80-a10e-11eb-89b3-2591262bf95a.png

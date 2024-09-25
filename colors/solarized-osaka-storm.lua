@@ -1,1 +1,1 @@
-require("solarized-osaka")._load("storm")
+require("solarized-matrix")._load("storm")

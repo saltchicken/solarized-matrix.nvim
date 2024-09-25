@@ -66,7 +66,7 @@ end
 
 function M.setup()
   M.docs()
-  local config = require("solarized-osaka.config")
+  local config = require("solarized-matrix.config")
   vim.o.background = "dark"
 
   -- map of style to style name
@@ -78,11 +78,11 @@ function M.setup()
   }
 
   for extra, info in pairs(M.extras) do
-    package.loaded["solarized-osaka.extra." .. extra] = nil
-    local plugin = require("solarized-osaka.extra." .. extra)
+    package.loaded["solarized-matrix.extra." .. extra] = nil
+    local plugin = require("solarized-matrix.extra." .. extra)
     for style, style_name in pairs(styles) do
       config.setup({ style = style })
-      local colors = require("solarized-osaka.colors").setup({ transform = true })
+      local colors = require("solarized-matrix.colors").setup({ transform = true })
       local fname = extra .. "/tokyonight_" .. style .. "." .. info.ext
       colors["_upstream_url"] = "https://github.com/folke/tokyonight.nvim/raw/main/extras/" .. fname
       colors["_style_name"] = "Tokyo Night" .. style_name

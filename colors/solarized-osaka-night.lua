@@ -1,1 +1,1 @@
-require("solarized-osaka")._load("night")
+require("solarized-matrix")._load("night")
